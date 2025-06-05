@@ -4,7 +4,7 @@ on:
   workflow_call:
   push:
     branches:
-      - build_nightly_ci_docker_image*
+      - daily_ci_torch_2.7.1
 
 concurrency:
   group: docker-images-builds
